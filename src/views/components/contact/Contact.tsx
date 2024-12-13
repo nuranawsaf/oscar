@@ -5,7 +5,7 @@ const Contact = () => {
     <div>
       <div className="bg-style contact-bg"></div>
 
-      <div className="container mt-11">
+      <div className="container mt-32 mb-32">
         <div className=" grid gap-8 lg:grid-cols-2">
           <div className="rounded-xl border">
             <h3 className="rounded-t-xl border-b bg-slate-200 p-11 font-semibold">

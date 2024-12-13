@@ -43,6 +43,10 @@
     background-image: url('https://res.cloudinary.com/softenin/image/upload/v1734038651/oscar/Dreamliner3_d2j2vt.png');
     height: 656px;
   }
+  .services-bg {
+    background-image: url('https://res.cloudinary.com/softenin/image/upload/v1734071925/oscar/Text_prwb5q.png');
+    height: 656px;
+  }
 
   .sb {
     @apply border border-red-500;
