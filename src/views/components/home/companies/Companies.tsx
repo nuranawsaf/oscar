@@ -1,5 +1,6 @@
 import React from 'react';
 import { companiesdata } from './companiesdata';
+import Link from 'next/link';
 
 const Companies = () => {
   return (
@@ -23,9 +24,11 @@ const Companies = () => {
       </div>
 
       <div className="my-20 flex justify-center">
-        <button className="rounded-xl bg-slate-200 py-4 px-8 text-center font-semibold  text-[#217BF4]">
-          See More
-        </button>
+        <Link href="/companies">
+          <button className="rounded-xl bg-slate-200 py-4 px-8 text-center font-semibold  text-[#217BF4]">
+            See More
+          </button>
+        </Link>
       </div>
     </div>
   );

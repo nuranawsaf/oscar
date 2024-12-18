@@ -40,7 +40,11 @@ const MobileNavbar: React.FC = () => {
         {/* LOGO */}
         <Link href="/">
           <div className="flex cursor-pointer items-center gap-x-2">
-            <img width={110} src="/assets/images/logo.png" alt="Brand Logo" />
+            <img
+              width={50}
+              src="https://res.cloudinary.com/softenin/image/upload/v1734505354/oscar/WhatsApp_Image_2024-12-16_at_11.46.49_PM_itgps9.png"
+              alt="Brand Logo"
+            />
           </div>
         </Link>
 

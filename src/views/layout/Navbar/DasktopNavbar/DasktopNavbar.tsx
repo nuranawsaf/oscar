@@ -13,11 +13,13 @@ const DasktopNavbar = () => {
         <nav className="container my-2 hidden lg:block">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
-              <Link href="/">
+              <Link className="flex items-center font-bold" href="/">
                 <img
-                  src="https://res.cloudinary.com/softenin/image/upload/v1734029272/oscar/main-logo_yrejjk.png"
+                  width={70}
+                  src="https://res.cloudinary.com/softenin/image/upload/v1734505354/oscar/WhatsApp_Image_2024-12-16_at_11.46.49_PM_itgps9.png"
                   alt="Brand Logo"
                 />
+                <h2>OSCAR ENTERPRISE</h2>
               </Link>
             </div>
 
