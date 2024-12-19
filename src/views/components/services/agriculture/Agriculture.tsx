@@ -7,7 +7,7 @@ const Agriculture = () => {
     <div>
       <div className="services-bg bg-style"></div>
 
-      <div className="container mt-24">
+      <div className="container mt-10 lg:mt-24">
         <img
           src="https://res.cloudinary.com/softenin/image/upload/v1734032155/oscar/home-icon3_vht1jn.png"
           alt=""
@@ -18,7 +18,7 @@ const Agriculture = () => {
           for his own people of his home town for which he has created one of
           the biggest gardens and agro-based company.
         </p>
-        <div className="mt-9 grid lg:grid-cols-3">
+        <div className="mt-9 grid gap-5 lg:grid-cols-3 lg:gap-0">
           <img
             src="https://res.cloudinary.com/softenin/image/upload/v1734079495/oscar/ag1_uamlfd.png"
             alt=""
@@ -46,7 +46,7 @@ const Agriculture = () => {
             lot of demand for the people of Bangladesh; Needless to say, Madina
             Agro Complex has one of the biggest projects in Bangladesh.
           </p>
-          <div className="mt-11 grid grid-cols-3 gap-8">
+          <div className="mt-11 grid gap-4 lg:grid-cols-3 lg:gap-8">
             {agriculturedata.map((item) => {
               return <img src={item.img} alt="" />;
             })}
@@ -55,9 +55,9 @@ const Agriculture = () => {
       </div>
 
       <div>
-        <div className="container mt-14 py-14">
+        <div className="container mt-14 lg:py-14">
           <div className="text-gray-600">
-            <div className="mt-11 mb-28 grid grid-cols-3 gap-8">
+            <div className="mt-11 mb-28 grid gap-4 lg:grid-cols-3 lg:gap-8">
               {culturedata.map((item) => {
                 return <img src={item.img} alt="" />;
               })}

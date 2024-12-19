@@ -6,7 +6,7 @@ const Commercial = () => {
     <div>
       <div className="services-bg bg-style"></div>
 
-      <div className="container mt-24">
+      <div className="container mt-10 lg:mt-24">
         <img
           src="https://res.cloudinary.com/softenin/image/upload/v1734032154/oscar/home-icon1_s2el2f.png"
           alt=""
@@ -16,7 +16,7 @@ const Commercial = () => {
           Oscar enterprise offers its services and covers all the requirements
           of all the commercial airlines of Bangladesh and Nepal.
         </p>
-        <div className="mt-9 grid lg:grid-cols-3">
+        <div className="mt-9 grid gap-6 lg:grid-cols-3 lg:gap-0">
           <img
             src="https://res.cloudinary.com/softenin/image/upload/v1734068889/oscar/ser-1_qrucqu.png"
             alt=""
@@ -52,7 +52,7 @@ const Commercial = () => {
             <p>14- Fly Dhaka</p>
             <p>15- R & R aviation</p>
 
-            <div className="mt-11 grid grid-cols-3 gap-8">
+            <div className="mt-11 grid gap-4 lg:grid-cols-3 lg:gap-8">
               {uscustomersdata.map((item) => {
                 return <img src={item.img} alt="" />;
               })}
@@ -75,7 +75,7 @@ const Commercial = () => {
             <p>8- Saurya Airlines</p>
             <p>9- Air Dynasty</p>
 
-            <div className="mt-11 mb-28 grid grid-cols-3 gap-8">
+            <div className="mt-11 mb-10 grid gap-4 lg:mb-28 lg:grid-cols-3 lg:gap-8">
               {nepalcustomers.map((item) => {
                 return <img src={item.img} alt="" />;
               })}

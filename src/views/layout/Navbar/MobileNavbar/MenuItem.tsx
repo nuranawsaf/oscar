@@ -40,7 +40,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ link, toggle }) => {
       whileTap={{ scale: 0.95 }}
     >
       <Link href={link.href}>
-        <span className="text-2xl">{link.title}</span>
+        <span className="text-xl">{link.title}</span>
       </Link>
     </motion.li>
   );

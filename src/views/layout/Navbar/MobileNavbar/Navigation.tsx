@@ -19,12 +19,17 @@ const variants = {
 const Navigation = ({ toggle }: { toggle: any }) => {
   return (
     <motion.ul
-      className="absolute top-0 right-0 z-30 h-full w-screen bg-white px-8 md:w-full"
+      className="absolute top-0 right-0 z-30 h-full w-screen bg-white px-4 md:w-full"
       variants={variants}
     >
       <Link href="/">
-        <div className="flex cursor-pointer items-center gap-x-2 py-4">
-          <img width={90} src="/assets/images/logo.png" alt="Brand Logo" />
+        <div className="flex w-max cursor-pointer items-center gap-x-1 py-4">
+          <img
+            width={50}
+            src="https://res.cloudinary.com/softenin/image/upload/v1734505354/oscar/WhatsApp_Image_2024-12-16_at_11.46.49_PM_itgps9.png"
+            alt="Brand Logo"
+          />
+          <h2 className="font-semibold">Oscar Enterprise</h2>
         </div>
       </Link>
 

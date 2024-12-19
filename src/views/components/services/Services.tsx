@@ -8,7 +8,7 @@ const Services = () => {
       <div className="services-bg bg-style"></div>
 
       <div className="container">
-        <div className="mt-20 mb-32 grid lg:grid-cols-3 lg:gap-8">
+        <div className="mt-20 mb-32 grid gap-4 lg:grid-cols-3 lg:gap-8">
           {servicesdata.map((item, index) => {
             return (
               <div className="rounded-2xl bg-slate-100 p-9">

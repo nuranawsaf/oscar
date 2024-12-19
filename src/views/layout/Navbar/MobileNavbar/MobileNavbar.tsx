@@ -35,16 +35,17 @@ const MobileNavbar: React.FC = () => {
   const { height } = useDimensions(containerRef);
 
   return (
-    <nav className="container block  py-3 lg:hidden">
+    <nav className="block px-4 py-3 lg:hidden">
       <div className="wrapper">
         {/* LOGO */}
         <Link href="/">
-          <div className="flex cursor-pointer items-center gap-x-2">
+          <div className="flex w-max cursor-pointer items-center gap-x-1">
             <img
               width={50}
               src="https://res.cloudinary.com/softenin/image/upload/v1734505354/oscar/WhatsApp_Image_2024-12-16_at_11.46.49_PM_itgps9.png"
               alt="Brand Logo"
             />
+            <h2 className="font-semibold">Oscar Enterprise</h2>
           </div>
         </Link>
 

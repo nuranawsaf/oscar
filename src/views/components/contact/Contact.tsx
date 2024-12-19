@@ -5,13 +5,13 @@ const Contact = () => {
     <div>
       <div className="bg-style contact-bg"></div>
 
-      <div className="container mt-32 mb-32">
+      <div className="container mt-14 mb-14 lg:mt-32 lg:mb-32">
         <div className=" grid gap-8 lg:grid-cols-2">
           <div className="rounded-xl border">
-            <h3 className="rounded-t-xl border-b bg-slate-200 p-11 font-semibold">
+            <h3 className="rounded-t-xl border-b bg-slate-200 p-4 font-semibold lg:p-11">
               Our Registered Office
             </h3>
-            <div className="p-11">
+            <div className="p-4 lg:p-11">
               <h4>Oscar Enterprise</h4>
               <p className="text-gray-500">
                 House: 27, Road: 09, Sector: 04
@@ -28,10 +28,10 @@ const Contact = () => {
           </div>
 
           <div className="rounded-xl border">
-            <h3 className="rounded-t-xl border-b bg-slate-200 p-11 font-semibold">
+            <h3 className="rounded-t-xl border-b bg-slate-200 p-4 font-semibold lg:p-11">
               Nepal Office
             </h3>
-            <div className="p-11">
+            <div className="p-4 lg:p-11">
               <h4>A One Complex</h4>
               <p className="text-gray-500">
                 Bhagwatisthan, Thamel,
@@ -49,10 +49,10 @@ const Contact = () => {
         </div>
 
         <div className="mt-10 rounded-xl border">
-          <h3 className="rounded-t-xl border-b bg-slate-200 p-11 font-semibold">
+          <h3 className="rounded-t-xl border-b bg-slate-200 p-4 font-semibold lg:p-11">
             Our Sister Concern
           </h3>
-          <div className="p-11">
+          <div className="p-4 lg:p-11">
             <h4>1. Madina Trade International</h4>
             <h4>2. Aero Repairing Sources International, Bangladesh</h4>
             <h4>3. Madina Agro Complex, Bangladesh</h4>

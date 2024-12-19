@@ -15,7 +15,7 @@ const Path = (props: any) => (
 
 const MenuToggle = ({ toggle }: { toggle: any }) => (
   <button
-    className="btn-toggle absolute right-6 top-0 mt-6 text-3xl text-primary"
+    className="btn-toggle absolute right-4 top-0 mt-6 text-3xl text-primary"
     onClick={toggle}
   >
     <RiMenu3Line />
